@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "mongodb"
-  url      = env("DATABASE_URL")
+  url      = env("mongodb+srv://yannickzannella_db_user:YannickZ12@nextjs-ecommerve.9lhq6ah.mongodb.net/?retryWrites=true&w=majority&appName=nextjs-ecommerve")
 }
 
 model Product {
